@@ -14,3 +14,5 @@ sudo chmod a+x bin/rexster.sh
 mv /local/git/Rexster/start.sh /rexster
 cp -r /local/git/Rexster/lib ${REXSTERHOME}/ext/titan
 rm ${REXSTERHOME}/lib/lucene-core-3.6.2.jar
+mv ${REXSTERHOME}/config/rexster.xml rexster.xml.orig
+cp /local/git/Rexster/rexster.xml ${REXSTERHOME}/config/rexster.xml

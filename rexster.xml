@@ -93,9 +93,9 @@
          <graph-read-only>false</graph-read-only>
          <properties>
             <storage.backend>cassandra</storage.backend>
-            <storage.hostname>localhost</storage.hostname>
+            <storage.hostname>127.0.0.1</storage.hostname>
             <storage.index.search.backend>elasticsearch</storage.index.search.backend>
-            <storage.index.search.hostname>localhost</storage.index.search.backend>
+            <storage.index.search.hostname>127.0.0.1</storage.index.search.backend>
             <storage.index.search.client-only>true</storage.index.search.client-only>
             <storage.index.search.local-mode>false</storage.index.search.local-mode>
             <storage.index.search.sniff>false</storage.index.search.sniff>

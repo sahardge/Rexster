@@ -1,7 +1,7 @@
 #!/bin/bash
 CASSANDRA=`/usr/bin/etcdctl --peers 172.17.42.1:4001 get /cassandraSeed/node1`
 ES=`/usr/bin/etcdctl --peers 172.17.42.1:4001 get /situ/elasticsearch/host`
-IP=`/usr/bin/etcdctl --peers 172.17.42.1:4001 get /rexsterIP`
+IP=`/usr/bin/etcdctl --peers 172.17.42.1:4001 get /situ/rexster/host`
 
 
 mv config/rexster.xml config/rexster.xml.orig
